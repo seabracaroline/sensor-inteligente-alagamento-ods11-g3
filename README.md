@@ -38,6 +38,5 @@ mackenzie/iot/alagamento
 - Lara Camargo Vianna
 - Natália D'Almeida Madeira
 
-## Vídeo de demonstração
-(Link do YouTube aqui)
+
 
