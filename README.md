@@ -41,5 +41,3 @@ mackenzie/iot/alagamento
 ## Vídeo de demonstração
 (Link do YouTube aqui)
 
-## Artigo
-(Se quiser adicionar)
