@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "author": "Caroline Seabra",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": -4.76, "attrs": {} },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": 59.1,
+      "left": -282.5,
+      "attrs": { "distance": "117" }
+    },
+    { "type": "wokwi-buzzer", "id": "buz1", "top": 36, "left": 215, "attrs": { "volume": "1.0" } },
+    { "type": "wokwi-led", "id": "led1", "top": 130, "left": -170, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-mqtt-client",
+      "id": "mqtt",
+      "top": -150,
+      "left": 200,
+      "attrs": { "broker": "mqtt://test.mosquitto.org" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "green", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "green", [] ],
+    [ "ultrasonic1:VCC", "esp:5V", "red", [] ],
+    [ "ultrasonic1:GND", "esp:GND.1", "black", [] ],
+    [ "ultrasonic1:TRIG", "esp:5", "blue", [] ],
+    [ "ultrasonic1:ECHO", "esp:18", "yellow", [] ],
+    [ "buz1:1", "esp:4", "orange", [] ],
+    [ "buz1:2", "esp:GND.2", "black", [] ],
+    [ "led1:A", "esp:2", "red", [] ],
+    [ "led1:C", "esp:GND.3", "black", [] ],
+    [ "esp:TX0", "mqtt:rx", "purple", [] ],
+    [ "esp:RX0", "mqtt:tx", "purple", [] ]
+  ],
+  "dependencies": {}
+}
