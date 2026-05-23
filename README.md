@@ -34,9 +34,9 @@ mackenzie/iot/alagamento
 - Wi-Fi
 
 ## Integrantes
-- Nome 1
-- Nome 2
-- Nome 3
+- Caroline Aparecida Seabra
+- Lara Camargo Vianna
+- Natália D'Almeida Madeira
 
 ## Vídeo de demonstração
 (Link do YouTube aqui)
