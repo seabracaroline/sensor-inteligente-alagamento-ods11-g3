@@ -40,8 +40,6 @@ Quando a distância permanece acima do limite estabelecido, o sistema mantém os
 
 A comunicação remota é realizada utilizando o protocolo MQTT.
 
-**Broker utilizado:** HiveMQ
-
 **Tópico utilizado:**
 
 mackenzie/iot/alagamento
