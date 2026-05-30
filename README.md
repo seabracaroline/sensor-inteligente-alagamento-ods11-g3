@@ -69,7 +69,7 @@ O artigo completo do projeto encontra-se disponível na pasta `docs`.
 
 ## Vídeos de Demonstrações
 
-Links do vídeos:
+Links dos vídeos:
 https://youtu.be/hsig3chYI24 e
 https://youtu.be/SpFpVo_yZT8
 
