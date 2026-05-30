@@ -67,10 +67,11 @@ A ESP32 atua como cliente publicador, enviando continuamente os dados coletados 
 
 O artigo completo do projeto encontra-se disponível na pasta `docs`.
 
-## Vídeo de Demonstração
+## Vídeos de Demonstrações
 
-Link do vídeo:
+Links do vídeos:
 https://youtu.be/hsig3chYI24
+https://youtu.be/SpFpVo_yZT8
 
 ## Integrantes
 
